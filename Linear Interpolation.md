@@ -1,3 +1,7 @@
+
+
+# Linear INterpolation logic RUn Query in sql server
+
 WITH "Period" (PeriodM, PeriodName) AS (
     -- // I would store it as another table basically, but having it as part of the view would do
                 SELECT  01, '1 mo'
