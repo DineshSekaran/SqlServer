@@ -49,4 +49,33 @@ sp_depends  --> to check dependency objects
   
   # Exception
   
+  Using Try /Catch  block as like programming language.
   
+ User defined  RaiserError() Takes 3 input Error Message,Severity,State
+ 
+ Error state should be between 1 and 255
+ 
+ @@ERROR is used to rollback/Commit for exception handling
+ 
+ @@ERROR ssyetm used to retain the value by assigning to varibale otherwise the system will lose its error(by reset to 0) of previous violaion error.
+ Each Statemnet should be used at every stmnt of exception.
+  
+  
+  # Syntax:
+  
+  
+ BEGIN TRY
+ 
+  ANy set of sql activity
+  
+  END TRY
+  
+  BEGIN CATCH
+  
+  ROLLABCK
+  
+  ERROR_lOG
+  
+  ERROR_NUMBER,ERROR_LINE...
+  
+  END CATCH
